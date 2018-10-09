@@ -10,11 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var commisionPayLabel: UILabel!
+    @IBOutlet weak var commisionPayTextField: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
      
     }
 
-
+    @IBAction func calculateOnTapped(_ sender: Any) {
+    }
+    
+    
 }
 
